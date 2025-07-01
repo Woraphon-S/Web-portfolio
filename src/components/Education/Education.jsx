@@ -60,7 +60,7 @@ const Education = () => {
             Arts Program specializing in Korean Language
           </div>
           <div className="school-period">
-            (2562 - 2565)
+            (2019 – 2022)
           </div>
           <div className="school-gpa">
             GPA: 2.75
