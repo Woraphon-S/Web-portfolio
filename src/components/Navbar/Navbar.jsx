@@ -65,12 +65,12 @@ const Navbar = ({ setTheme, theme }) => {
                                 Menu
                             </h2>
                             <ul className="menu-list">
-                                <li> <Link to="home" smooth={true} offset={-300} duration={500} component="li"><a className="icon"><i><FaHome /></i> Home</a></Link></li>
-                                <li> <Link to="sk" smooth={true} offset={-80} duration={500} component="li"><a>🛠 Skills</a></Link></li>
-                                <li> <Link to="pj" smooth={true} offset={-80} duration={500} component="li"><a>🚀Project</a></Link></li>
-                                <li> <Link to="exp" smooth={true} offset={-80} duration={500} component="li"><a className="icon"><i><MdOutlineWorkspacePremium /></i> Experience</a></Link></li>
-                                <li> <Link to="edc" smooth={true} offset={-80} duration={500} component="li"><a>🎓Education</a></Link></li>
-                                <li> <Link to="ct" smooth={true} offset={-80} duration={500} component="li"><a className="icon"><i><FaSquarePhone /></i>Contact</a></Link></li>
+                                <Link to="home" smooth={true} offset={-300} duration={500} component="li"><li><a className="icon"><i><FaHome /></i> Home</a></li></Link>
+                                <Link to="sk" smooth={true} offset={-80} duration={500} component="li"><li><a>🛠 Skills</a></li></Link>
+                                <Link to="pj" smooth={true} offset={-80} duration={500} component="li"><li><a>🚀Project</a></li></Link>
+                                <Link to="exp" smooth={true} offset={-80} duration={500} component="li"><li><a className="icon"><i><MdOutlineWorkspacePremium /></i> Experience</a></li></Link>
+                                <Link to="edc" smooth={true} offset={-80} duration={500} component="li"><li><a>🎓Education</a></li></Link>
+                                <Link to="ct" smooth={true} offset={-80} duration={500} component="li"><li><a className="icon"><i><FaSquarePhone /></i>Contact</a></li></Link>
                             </ul>
                         </div>
                     </div>
