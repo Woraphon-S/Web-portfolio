@@ -1,9 +1,10 @@
 import './Projects.css'
 import Weatherapp from './Weatherapp/Weatherapp'
-import Wldp from './WebLandingpage/wldp'
+import Wldp from './WebLandingpage/Wldp'
+import TodoList from './Todolist/Todolist';
 import { useEffect, useRef, useState } from "react";
 import '../../App.css'
-import TodoList from './Todolist/Todolist';
+
 
 
 const Projects = () => {
