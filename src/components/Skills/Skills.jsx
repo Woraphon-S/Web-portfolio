@@ -34,7 +34,7 @@ const Skills = () => {
                         <div className="TypeScript-item">
                             <div className='title-box'>
                                 <img src={typescript} alt="" />
-                                <h2>TypeScriptp</h2>
+                                <h2>TypeScript</h2>
                             </div>
 
                         </div>
