@@ -57,9 +57,9 @@ const Navbar = ({ setTheme, theme }) => {
                         <div onClick={togglemenu} className="hamburger-menu">
                             {isToggle === true ? <i><RxCross2 /></i> : <i><GiHamburgerMenu /></i>}
                         </div>
-                        <div className="resume-btn">
+                        <a href="/Woraphon_Resume.pdf" target="_blank" className="resume-btn">
                             <button><i><MdFileDownload /></i><p>Resume</p></button>
-                        </div>
+                        </a>
                         <div className={`menu-container ${isToggle ? 'slide-in' : 'slide-out'}`}>
                             <h2 className="menu-title">
                                 Menu
