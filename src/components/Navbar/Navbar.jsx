@@ -48,9 +48,9 @@ const Navbar = ({ setTheme, theme }) => {
                             <a>Contract</a>
                         </Link>
                     </ul>
-                    <div className="resume-btn">
+                    <a href="/Woraphon_Resume.pdf" target="_blank" className="resume-btn">
                         <button><i><MdFileDownload /></i><p>Resume</p></button>
-                    </div>
+                    </a>
                 </div>
                 <div className="nav-toggle-container">
                     <div className="nav-toggle-wrapper">
