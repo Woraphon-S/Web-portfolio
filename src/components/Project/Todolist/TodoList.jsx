@@ -1,8 +1,8 @@
 import './TodoList.css'
 import todolist_image from '../../../assets/ProjectImage/todolistimage.png'
-import { FaEye } from "react-icons/fa";
+import { FaEye } from "react-icons/fa"
 
-const Todolist = () => {
+const TodoList = () => {
     return (
         <section className="TodoList-box box-shadow">
             <div className="TodoList-title">
@@ -37,4 +37,4 @@ const Todolist = () => {
         </section>
     )
 }
-export default Todolist
+export default TodoList

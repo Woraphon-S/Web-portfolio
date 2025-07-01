@@ -1,9 +1,10 @@
 import './Projects.css'
-import Todolist from './Todolist/Todolist'
 import Weatherapp from './Weatherapp/Weatherapp'
 import Wldp from './WebLandingpage/wldp'
 import { useEffect, useRef, useState } from "react";
 import '../../App.css'
+import TodoList from './Todolist/Todolist';
+
 
 const Projects = () => {
   const [isVisible, setVisible] = useState(false);
@@ -30,7 +31,7 @@ const Projects = () => {
       </div>
       <div className="Project-Wrapper">
         <Weatherapp />
-        <Todolist />
+        <TodoList  />
         <Wldp />
       </div>
     </div>
