@@ -1,7 +1,7 @@
 import './Projects.css'
 import Weatherapp from './Weatherapp/Weatherapp'
 import Wldp from './WebLandingpage/Wldp'
-import TodoList from './Todolist/Todolist';
+import TodoList from './Todolist/TodoList';
 import { useEffect, useRef, useState } from "react";
 import '../../App.css'
 
