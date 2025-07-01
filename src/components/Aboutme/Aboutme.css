@@ -1,0 +1,114 @@
+.Aboutme {
+    margin-top: 10rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Aboutme-container {
+    max-width: 960px;
+    width: 100%;
+    border-radius: 20px;
+    color: var(--snow);
+    background-color: var(--second);
+    height: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+
+    .box-content {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        padding: 3rem 0;
+        align-items: center;
+
+        .me-image {
+            display: inline;
+            width: fit-content;
+            padding: 1rem;
+            height: fit-content;
+
+            img {
+                box-shadow: 0px 1px 5px 3px rgba(255, 252, 252, 0.8);
+                width: 15rem;
+                border-radius: 20%;
+                user-select: none;
+                height: auto;
+            }
+        }
+    }
+
+    .text-box {
+        max-width: 540px;
+        width: 100%;
+        display: inline-flex;
+        height: 100%;
+        word-break: break-word;
+        flex-direction: column;
+        backdrop-filter: blur(10px);
+        background: #242a36;
+        padding: 1.5rem;
+        border: 1px solid hsla(0, 0%, 100%, .125);
+        border-radius: 8px;
+
+        .myname {
+            text-shadow: -1px 2px 10px rgba(132, 140, 252, 0.7);
+            font-weight: 800;
+            font-size: 2rem;
+        }
+
+        .major {
+            color: #15eeb8;
+            font-weight: 700;
+            font-size: 17px;
+        }
+
+        .seeking-box {
+            h3 {
+                font-weight: 600;
+                word-break: break-word;
+
+                p {
+                    font-weight: 600;
+                    color: #15eeb8;
+                    display: inline-block;
+                }
+            }
+
+            .dev-box {
+                display: flex;
+                flex-wrap: wrap;
+                gap: .8rem;
+                margin: 1rem 0;
+
+                span {
+                    background: #64ffda26;
+                    border: 1px solid #64ffda33;
+                    border-radius: 4px;
+                    color: #64ffda;
+                    font-size: .9rem;
+                    padding: .4rem .8rem;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+/* responsive */
+
+
+@media (max-width:728px) {
+    .box-content {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .text-box {
+        margin-top: 1rem;
+    }
+}

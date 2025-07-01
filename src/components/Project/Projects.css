@@ -1,0 +1,31 @@
+.Projects {
+    max-width: 1360px;
+    width: 100%;
+    height: auto;
+    margin: 20rem auto 0;
+
+    .Project-title {
+        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: -1px 1px 3px rgba(132, 140, 252, 0.7);
+        i {
+            font-size: 23px;
+        }
+        h2 {
+        margin-left: 10px;
+        font-size: 40px;
+        justify-self: center;
+        font-weight: 800;
+    }
+}
+}
+
+.Project-Wrapper {
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}

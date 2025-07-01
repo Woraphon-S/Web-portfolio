@@ -1,0 +1,472 @@
+.Skills {
+    margin-top: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    user-select: none;
+    position: relative;
+    justify-content: center;
+
+    .Skills-title {
+        width: 100%;
+        text-align: center;
+        padding-right: 1rem;
+        font-size: 40px;
+        font-weight: 800;
+        text-shadow: -1px 1px 3px rgba(132, 140, 252, 0.7);
+    }
+}
+
+.Skills-wrapper {
+    max-width: 1200px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 4rem auto 0;
+    align-self: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: fit-content;
+    background-color: var(--second);
+    color: var(--snow);
+
+    .top-wrap {
+        height: auto;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    h2,
+    p {
+        font-family: "Lato", sans-serif;
+    }
+
+    .Programming-box {
+        padding: 1rem 1rem;
+        max-width: 170px;
+        width: 100%;
+        height: fit-content;
+
+
+        .PG {
+            font-size: 23px;
+            font-weight: 700;
+        }
+
+        .JavaScript-item {
+            margin-top: 1rem;
+            align-items: center;
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+
+.title-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    img {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    h2 {
+        font-family: "Courier Prime", monospace;
+        padding-left: 0.3rem;
+        font-size: 15px;
+    }
+
+}
+
+
+/* TypeScript Item Style */
+
+
+.TypeScript-item {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    align-items: center;
+}
+
+
+/* C++ Item Style */
+
+
+.Cplusplus-item {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    gap: 8.7rem;
+    align-items: center;
+}
+
+
+/* SQL Item Style */
+
+
+.sql-item {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    gap: 8.7rem;
+    align-items: center;
+}
+
+
+/* Frontend Style*/
+
+
+.Frontend-box {
+    padding: 1rem 1rem;
+    max-width: 170px;
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+
+    .FE {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .react-item {
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+
+        h2 {
+            font-size: 15px;
+        }
+    }
+}
+
+
+.title-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    img {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    h2 {
+        font-family: "Courier Prime", monospace;
+        padding-left: 0.3rem;
+        font-size: 15px;
+    }
+
+}
+
+
+/* tailwind Item Style */
+
+
+.tailwind-item {
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    gap: 5rem;
+    align-items: center;
+
+    .title-box {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+/* nextjs Item Style */
+
+
+.nextjs-item {
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+    gap: 8.7rem;
+    align-items: center;
+
+    .title-box {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.nextjsicon {
+    font-size: 1.5rem;
+}
+
+.html-item {
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+    gap: 8.7rem;
+    align-items: center;
+
+    .title-box {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.css-item {
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+    gap: 8.7rem;
+    align-items: center;
+
+    .title-box {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+/* Backend */
+
+
+.Backend-box {
+    padding: 1rem 1rem;
+    max-width: 170px;
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+
+    .BE {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .nodejs-item {
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+
+        h2 {
+            font-size: 15px;
+        }
+    }
+}
+
+
+/* Database  */
+
+
+.Database-box {
+    padding: 1rem 1rem;
+    max-width: 170px;
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+
+    .DB {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .Firebase-item {
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+
+        h2 {
+            font-size: 15px;
+        }
+    }
+
+    .MySQL-item {
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+
+        h2 {
+            font-size: 15px;
+        }
+    }
+}
+
+
+/* Bottom wrapper */
+
+
+.bottom-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    margin: 2rem 0rem;
+    flex-wrap: wrap;
+}
+
+.softskills-item {
+    padding: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    max-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+
+    .softskills-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .ul-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 2rem;
+        margin-top: 0.5rem;
+        color: #fff;
+        letter-spacing: 1px;
+
+        li {
+            font-size: 16px;
+            font-weight: 300;
+            list-style: disc;
+            padding: 4px 0;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            word-break: break-word;
+        }
+    }
+}
+
+
+/* Languages */
+
+
+.languages-item {
+    padding: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    max-width: 320px;
+    overflow: hidden;
+    margin: 0 1rem;
+    width: 100%;
+    height: auto;
+
+    .languages-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .ul-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 2rem;
+        margin-top: 0.5rem;
+        color: #fff;
+        letter-spacing: 1px;
+
+        li {
+            list-style: disc;
+            font-size: 16px;
+            font-weight: 300;
+            padding: 4px 0;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            word-break: break-word;
+        }
+    }
+}
+
+
+/* Tools box */
+
+
+.Tools-item {
+    padding: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    max-width: 320px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+
+    .Tools-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .ul-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 2rem;
+        margin-top: 0.5rem;
+        color: #fff;
+        letter-spacing: 1px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        li {
+            display: flex;
+            gap: 1rem;
+            font-size: 16px;
+            font-weight: 300;
+            padding: 4px 0;
+        }
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            word-break: break-word;
+        }
+    }
+}
+
+
+/* responsive */
+
+
+@media (max-width:991px) {
+
+    .Tools-item,
+    .languages-item,
+    .softskills-item {
+        margin: 1rem 1rem;
+    }
+}
+
+@media (max-width:673px) {
+    .top-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

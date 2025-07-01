@@ -1,0 +1,89 @@
+footer {
+    width: 100%;
+    margin-top: 20rem;
+    background-color: var(--second);
+}
+
+.contact-container {
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: var(--snow);
+    padding: 1rem;
+}
+
+.contact-wrapper {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+
+    .contact-title {
+        margin-bottom: 1rem;
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--snow);
+    }
+
+    .link-wrap {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+
+        .github-box,
+        .facebook-box,
+        .instagram-box {
+            cursor: pointer;
+            width: fit-content;
+            gap: 5px;
+            display: flex;
+            align-items: center;
+
+            i {
+                display: flex;
+                align-items: center
+            }
+        }
+
+        :hover {
+            color: var(--snow);
+        }
+    }
+
+    .gmail-box,
+    .phone-box {
+        justify-content: center;
+        display: flex;
+        margin-bottom: .4rem;
+        align-items: center;
+
+        i {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-size: 18px;
+            color: rgb(86, 149, 243);
+        }
+
+        p {
+            padding-left: 5px;
+        }
+    }
+
+    a {
+        font-size: 18px;
+        font-weight: 500;
+        color: oklch(70.182% 0.02024 265.955);
+    }
+
+    .coppyright {
+        margin-top: 0.4rem;
+        font-size: 13px;
+        font-weight: 500;
+        color: oklch(69.904% 0.02356 256.813);
+    }
+
+}

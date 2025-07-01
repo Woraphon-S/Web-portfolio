@@ -1,0 +1,67 @@
+:root {
+    --snow: #fcf7f8;
+    --dark: #0d1116;
+    --DarkBlue: #102542;
+    --second: #171c28;
+    --bg-color: #fcf7f8;
+    --title-color: #171c28;
+}
+
+.dark-theme {
+    --bg-color: #222a44;
+    --title-color: #fcf7f8;
+    --box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.9);
+    transition: color 0.5s ease-in-out;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--title-color);
+    transition: color 0.5s ease-in-out;
+}
+
+.title-color {
+    color: var(--title-color);
+    transition: color 0.5s ease-in-out;
+}
+
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+
+/* Fade section */
+
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 1s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}

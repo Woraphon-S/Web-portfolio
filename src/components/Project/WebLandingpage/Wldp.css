@@ -1,0 +1,168 @@
+.WebLandingPage-box {
+    margin-top: 2rem;
+    max-width: 550px;
+    overflow: hidden;
+    height: 750px;
+    background-color: var(--second);
+    color: var(--snow);
+    padding: 1.5rem;
+    border-radius: 15px;
+
+    .WebLandingPage-title {
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Livedemo-box {
+            max-width: 105px;
+            height: 100%;
+            scale: 0.8;
+            width: 100%;
+            height: fit-content;
+            cursor: pointer;
+            display: flex;
+
+            a {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                width: 100%;
+                height: 100%;
+                font-size: 15px;
+                box-shadow: 0px 0px 2px 4px rgba(255, 255, 255, 0.9);
+                color: var(--second);
+                background-color: var(--snow);
+                padding: 3px 5px;
+                font-weight: 700;
+                letter-spacing: -0.3px;
+                border-radius: 7px;
+                i {
+                    padding-top: 3.5px;
+                    height: 100%;
+                }
+            }
+
+            a:hover {
+                scale: 0.98;
+                transition: scale 0.6s ease-out;
+            }
+        }
+    }
+}
+
+.WebLandingPage-contents {
+    padding-top: 1rem;
+    height: 100%;
+
+    p {
+        font-size: 0.938rem;
+        text-indent: 5em;
+        height: fit-content;
+    }
+
+    .SeeMore {
+        padding-top: 1rem;
+
+        a {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            color: #d1d1d1;
+            font-size: 13px;
+            font-weight: 400;
+            text-shadow: 0px px 2px rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    .project-image {
+        margin-top: 2rem;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .Detail-project {
+        background-color: #041225;
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+
+        .Detail-title {
+            font-size: 19px;
+            font-weight: 600;
+        }
+
+        .AboutProject-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            width: 100%;
+            padding-top: 5px;
+            padding-left: 1rem;
+
+            li {
+                list-style: disc;
+                font-size: 15px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+
+/* Responsive */
+
+
+@media (max-width:1157px) {
+    .WebLandingPage-box {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width:1131px) {
+    .WebLandingPage-box {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:581px) {
+    .WebLandingPage-box {
+        height: fit-content;
+    }
+}
+
+@media (max-width:553px) {
+    .WebLandingPage-box {
+        margin: 1rem;
+    }
+
+    .WebLandingPage-contents {
+        p {
+            text-indent: 3em;
+        }
+    }
+}
+
+@media (max-width:458px) {
+    .TodoList-contents {
+        p {
+            max-height: 170px;
+            height: 100%;
+        }
+    }
+}
