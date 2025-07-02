@@ -19,7 +19,7 @@ const Aboutme = () => {
                                     <span>Front-End Developer</span>
                                     <span>Back-End Developer</span>
                                 </div>
-                                <h3><p>Duration</p>: November 3, 2025 - February 2, 2026 <p>(3 months)</p></h3>
+                                <h3><p>Duration</p>: November 3, 2025 - February 20, 2026 <p>(3 months)</p></h3>
                             </div>
                         </div>
                     </div>
