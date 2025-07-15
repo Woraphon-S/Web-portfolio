@@ -10,9 +10,10 @@ import css_icon from '../../assets/FontendIcon/css.png'
 import tailwind_icon from '../../assets/FontendIcon/tailwind.png'
 import nodejs_icon from '../../assets/BackendIcon/backend_icon.png'
 import firebase_icon from '../../assets/DatabaseIcon/firebase_icon.png'
-import mysql_icon from '../../assets/DatabaseIcon/mysql_icon.png'
+import PostgresSQL from '../../assets/DatabaseIcon/PostgreSQL_icon.png'
 import git_icon from '../../assets/ToolsIcon/git.png'
 import github_icon from '../../assets/ToolsIcon/github.png'
+import postman_icon from '../../assets/ToolsIcon/postman_icon.png'
 
 const Skills = () => {
     return (
@@ -128,8 +129,8 @@ const Skills = () => {
 
                         <div className="MySQL-item">
                             <div className='title-box'>
-                                <img className='mysql_icon' src={mysql_icon} alt="" />
-                                <h2>MySQL</h2>
+                                <img className='mysql_icon' src={PostgresSQL} alt="" />
+                                <h2>PostgresSQL</h2>
                             </div>
                         </div>
                     </div>
@@ -178,6 +179,7 @@ const Skills = () => {
                         <ul className='ul-wrapper'>
                             <li><img src={github_icon} alt="" /> <p>GitHub</p></li>
                             <li><img src={git_icon} alt="" /><p>Git</p></li>
+                            <li><img className='img-fixed' src={postman_icon} alt="" /><p>Postman</p></li>
                             <li><p>IDEs: Visual Studio Code, Arduino IDE.</p></li>
                             <li><p>Comunication: Discord, Microsoft Teams,Zoom</p></li>
                         </ul>

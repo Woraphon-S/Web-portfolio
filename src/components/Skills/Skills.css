@@ -312,6 +312,10 @@
     }
 }
 
+.img-fixed {
+    scale: 0.8;
+}
+
 
 /* Bottom wrapper */
 
